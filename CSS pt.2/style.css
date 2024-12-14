@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+}
+.div-pai{
+    background: #ff1396;
+    height: 360px;
+    width: 360px;
+    position: static;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.div-filho{
+    background: #ffff00;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+div{
+    display: block;
+}
